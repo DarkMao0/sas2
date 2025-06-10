@@ -1,0 +1,17 @@
+RewriteEngine On
+
+RewriteCond %{THE_REQUEST} /([^.?]+)\.php(\?.*)? [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !\.php$ [NC]
+RewriteCond %{DOCUMENT_ROOT}/$1.php -f
+RewriteRule ^(.+?)/?$ $1.php [L]
+
+DirectoryIndex profile.php
+ErrorDocument 404 /errors/404.php
+ErrorDocument 403 /errors/403.php
+
+AddDefaultCharset UTF-8
+Header set X-Content-Type-Options nosniff

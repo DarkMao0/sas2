@@ -1,0 +1,594 @@
+/*Общее*/
+@font-face {
+    font-family: "os_light"; src:url(../fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: "os_regular"; src:url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "os_medium"; src:url(../fonts/OpenSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: "os_bold"; src:url(../fonts/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "os_sbold"; src:url(../fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: "os_xbold"; src:url(../fonts/OpenSans-ExtraBold.ttf);
+}
+
+::selection {
+    background: #ff9500;
+    color: #fff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 130px;
+}
+
+img, svg, button, iframe, .sale {
+    user-select: none;
+}
+
+a, label, input, button, span, td {
+    color: #000000;
+    text-decoration: none;
+    font-family: "os_medium", sans-serif;
+    letter-spacing: 0.05em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000000;
+    text-decoration: none;
+    font-family: "os_bold", sans-serif;
+    letter-spacing: 0.05em;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: inset 0 0 500px 0 #fff4e8;
+}
+
+input[aria-invalid="true"] {
+    border: 1px solid red;
+}
+
+.alert_con {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 3px;
+    height: 30px;
+    width: 300px;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+.reg_alert {
+    z-index: 2;
+    position: absolute;
+    top: 35px;
+    margin-top: 5px;
+    font-size: 12px;
+    color: red;
+}
+
+.content {
+    margin-top: 100px;
+    display: flex;
+    min-height: 1065px;
+}
+
+.con {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.main_dir {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.page_header {
+    margin-bottom: 30px;
+}
+
+/*Шапка*/
+.header {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    align-items: center;
+    transition: 0.3s all;
+}
+
+.log {
+    width: 100px;
+    display: flex;
+}
+
+.header_actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.profile_actions {
+    display: flex;
+    gap: 30px;
+}
+
+.user_pages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user_pages:hover .user_pages_image {
+    fill: #ff9500;
+}
+
+.user_pages:hover .user_pages_title {
+    color: #ff9500;
+}
+
+.nav_sections {
+    display: flex;
+    gap: 35px;
+    margin-left: 10px;
+}
+
+.nav_page a:hover {
+    color: #ff9500;
+    border-bottom: 2px solid #ff9500;
+}
+
+.profile_action {
+    position: relative;
+    min-width: 80px;
+}
+
+/*Подвал*/
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f6;
+}
+
+.corpo {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #d3d3d3;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.soc {
+    display: flex;
+    gap: 30px;
+}
+
+.soc a {
+    display: flex;
+    align-items: center;
+}
+
+.soc a:active {
+    filter: brightness(120%);
+}
+
+.soc a:hover {
+    fill: #ff9500;
+}
+
+.bank {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.visa {
+    width: 70px;
+}
+
+.mc {
+    width: 50px;
+}
+
+.mir {
+    width: 80px;
+}
+
+.sbp {
+    width: 70px;
+}
+
+.company {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.company a {
+    color: #808080;
+    font-size: 14px;
+}
+
+.back-to-top {
+    z-index: 10;
+    position: fixed;
+    cursor: pointer;
+    background: #ffffff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    right: 50px;
+    bottom: -75px;
+    padding: 15px 15px;
+    border-radius: 100%;
+    transition: 0.3s all;
+}
+
+.back-to-top:hover {
+    filter: brightness(120%);
+}
+
+.back-to-top svg {
+    display: flex;
+    align-self: center;
+    fill: #ff9500;
+}
+
+.scheme {
+    width: 1170px;
+    border: 1px solid black;
+}
+
+.book_field {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_con {
+    display: flex;
+    justify-content: center;
+}
+
+.sign_up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.link_to {
+    cursor: pointer;
+    width: fit-content;
+    display: flex;
+    font-family: os_regular, sans-serif;
+    font-size: 14px;
+    color: #808080;
+}
+
+.link_to:hover {
+    color: #ff9500;
+}
+
+.link_to:active {
+    filter: brightness(120%);
+}
+
+.sup_but {
+    cursor: pointer;
+    width: fit-content;
+    padding: 6px 18px;
+    border-radius: 5px;
+    border: none;
+    font-family: os_medium, sans-serif;
+    color: #ffffff;
+    background-color: #ff9500;
+    transition: 0.3s all;
+}
+
+.sup_but:active {
+    filter: brightness(120%);
+}
+
+.field_con {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.eye_image {
+    cursor: pointer;
+    position: absolute;
+    left: 265px;
+    top: 7px;
+    width: 25px;
+    transition: 0.3s all;
+}
+
+.eye_image:hover {
+    filter: brightness(75%);
+    transition: 0.3s all;
+}
+
+.user_profile {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.exit_but {
+    align-self: center;
+    cursor: pointer;
+    width: fit-content;
+    padding: 6px 18px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    background-color: #ff9500;
+    transition: 0.3s all;
+}
+
+.history_but {
+    align-self: center;
+    cursor: pointer;
+    width: fit-content;
+    padding: 6px 18px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: none;
+    color: #ffffff;
+    background-color: #808080;
+    transition: 0.3s all;
+}
+
+.exit_but:active, .history_but:active {
+    filter: brightness(120%);
+}
+
+.user_actions {
+    display: flex;
+    gap: 5px;
+}
+
+.profile_container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.books {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart_items {
+    display: flex;
+    flex-direction: column;
+    min-height: 800px;
+}
+
+.prod_table {
+    border-spacing: 0 20px;
+    width: 100%;
+}
+
+.prod_table tr:first-child td:first-child,
+.prod_table tr td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.prod_table tr:first-child td:last-child,
+.prod_table tr td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.prod_table td {
+    text-align: center;
+    font-size: 16px;
+    background-color: #f5f5f6;
+    padding: 10px;
+}
+
+.table_content {
+    height: 150px;
+}
+
+.table_content td {
+    max-width: 200px;
+}
+
+.refresh {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.quantity_changer {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    width: fit-content;
+    transition: 0.3s all;
+}
+
+.quantity_changer:hover {
+    border: 1px solid #ff9500;
+}
+
+.quantity_changer button {
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 6.5px 12px;
+    font-size: 16px;
+    transition: 0.3s all;
+}
+
+.quantity_changer button:hover {
+    color: #ff9500;
+    background-color: #f5f5f6;
+}
+
+.quantity_changer button:active {
+    filter: brightness(95%);
+}
+
+.quantity_input {
+    -moz-appearance: textfield;
+    cursor: default;
+    background-color: #ffffff;
+    text-align: center;
+    border: none;
+    padding: 8px;
+    border-radius: 0;
+    outline: none;
+    width: 40px;
+}
+
+.quantity_input::-webkit-inner-spin-button,
+.quantity_input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.quantity_changer button:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.quantity_changer button:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.cart_del {
+    cursor: pointer;
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ff9500;
+    font-family: os_medium, sans-serif;
+    color: #ff9500;
+    background-color: #ffffff;
+    transition: 0.3s all;
+}
+
+.cart_del:hover {
+    color: #ffffff;
+    background-color: #ff9500;
+    transition: 0.3s all;
+}
+
+.sup_field {
+    padding: 10px;
+    width: 300px;
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid #d3d3d3;
+    transition: 0.3s all;
+}
+
+.book_input {
+    padding: 10px;
+    width: 200px;
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid #d3d3d3;
+    transition: 0.3s all;
+}
+
+.select_field {
+    padding: 10px;
+    width: 60px;
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid #d3d3d3;
+    transition: 0.3s all;
+}
+
+.sup_field:hover, .book_input:hover, .select_field:hover {
+    border-color: #ff9500;
+    transition: 0.3s all;
+}
+
+.sup_field:focus, .book_input:focus, .select_field:focus {
+    outline: none;
+    border-color: #ff9500;
+}
+
+.error_container {
+    display: none;
+    text-align: center;
+    padding: 10px 0;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+.error_con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    user-select: none;
+}
+
+.simple_logo a {
+    font-size: 24px;
+    font-family: os_sbold, sans-serif;
+}
+
+.color_let {
+    color: #ff9500;
+}
+
+.big_num {
+    margin-top: -20px;
+    color: #ff9500;
+    font-size: 216px;
+}
+
+.error_desc {
+    margin-top: -20px;
+    font-size: 36px;
+    font-family: os_bold, sans-serif;
+}
+
+.side_msg {
+    margin-top: 20px;
+    color: #808080;
+    font-size: 24px;
+    font-family: os_bold, sans-serif;
+}
