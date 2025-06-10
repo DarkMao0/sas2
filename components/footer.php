@@ -50,8 +50,6 @@
             <div class="bank">
                 <img class="sbp" src="/img/svg/sbp.svg">
                 <img class="mir" src="/img/svg/mir.svg">
-                <img class="mc" src="/img/svg/mastercard.svg">
-                <img class="visa" src="/img/svg/visa.svg">
             </div>
         </div>
         <div class="company">
