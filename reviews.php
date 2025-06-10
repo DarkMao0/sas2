@@ -37,7 +37,8 @@ $reviews = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <meta charset="utf-8">
     <title>kushac - Отзывы</title>
     <link rel="icon" href="/img/fav.png" type="image/x-icon">
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/include.css">
+    <link rel="stylesheet" href="/css/common.css">
     <script defer src="/js/common.js"></script>
 </head>
 <body>
