@@ -24,7 +24,7 @@
 }
 
 ::selection {
-    background: #ff9500;
+    background: #2563eb;
     color: #fff;
 }
 
@@ -40,25 +40,25 @@ img, svg, button, iframe {
 }
 
 a, label, input, button, span, td {
-    color: #000000;
+    color: #1e293b;
     text-decoration: none;
     font-family: "os_medium", sans-serif;
     letter-spacing: 0.05em;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #000000;
+    color: #0f172a;
     text-decoration: none;
     font-family: "os_bold", sans-serif;
     letter-spacing: 0.05em;
 }
 
 input:-webkit-autofill {
-    -webkit-box-shadow: inset 0 0 500px 0 #fff4e8;
+    -webkit-box-shadow: inset 0 0 500px 0 #e0e7ff;
 }
 
 input[aria-invalid="true"] {
-    border: 1px solid red;
+    border: 1px solid #ef4444;
 }
 
 /* Общие стили контента */
@@ -69,9 +69,9 @@ input[aria-invalid="true"] {
     padding: 3px;
     height: 30px;
     width: 300px;
-    border: 1px solid rgb(255, 0, 0);
+    border: 1px solid #2563eb;
     border-radius: 5px;
-    background-color: rgba(255, 0, 0, 0.1);
+    background-color: rgba(37, 99, 235, 0.1);
 }
 
 .reg_alert {
@@ -80,7 +80,7 @@ input[aria-invalid="true"] {
     top: 35px;
     margin-top: 5px;
     font-size: 12px;
-    color: red;
+    color: #2563eb;
 }
 
 .content {
@@ -113,7 +113,7 @@ input[aria-invalid="true"] {
     right: 0;
     height: 120px;
     backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(37, 99, 235, 0.9);
     display: flex;
     align-items: center;
     transition: 0.3s all;
@@ -148,11 +148,7 @@ input[aria-invalid="true"] {
 }
 
 .user_pages:hover .user_pages_image {
-    fill: #ff9500;
-}
-
-.user_pages:hover .user_pages_title {
-    color: #ff9500;
+    fill: #ee3405;
 }
 
 .nav_sections {
@@ -162,8 +158,8 @@ input[aria-invalid="true"] {
 }
 
 .nav_page a:hover {
-    color: #ff9500;
-    border-bottom: 2px solid #ff9500;
+    color: #ee3405;
+    border-bottom: 2px solid #2563eb;
 }
 
 .profile_action {
@@ -175,13 +171,13 @@ input[aria-invalid="true"] {
 .footer {
     display: flex;
     justify-content: center;
-    background-color: #f5f5f6;
+    background-color: #f1f5f9;
 }
 
 .corpo {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #d3d3d3;
+    border-bottom: 1px solid #cbd5e1;
     padding-top: 25px;
     padding-bottom: 25px;
 }
@@ -201,7 +197,7 @@ input[aria-invalid="true"] {
 }
 
 .soc a:hover {
-    fill: #ff9500;
+    fill: #2563eb;
 }
 
 .bank {
@@ -234,7 +230,7 @@ input[aria-invalid="true"] {
 }
 
 .company a {
-    color: #808080;
+    color: #64748b;
     font-size: 14px;
 }
 
@@ -258,7 +254,7 @@ input[aria-invalid="true"] {
 .back-to-top svg {
     display: flex;
     align-self: center;
-    fill: #ff9500;
+    fill: #2563eb;
 }
 
 /* Стили корзины и таблиц */
@@ -275,7 +271,6 @@ input[aria-invalid="true"] {
     min-height: 800px;
 }
 
-
 .refresh {
     display: flex;
     flex-direction: column;
@@ -286,14 +281,14 @@ input[aria-invalid="true"] {
 .quantity_changer {
     display: inline-flex;
     align-items: center;
-    border: 1px solid #d3d3d3;
+    border: 1px solid #cbd5e1;
     border-radius: 5px;
     width: fit-content;
     transition: 0.3s all;
 }
 
 .quantity_changer:hover {
-    border: 1px solid #ff9500;
+    border: 1px solid #2563eb;
 }
 
 .quantity_changer button {
@@ -307,8 +302,8 @@ input[aria-invalid="true"] {
 }
 
 .quantity_changer button:hover {
-    color: #ff9500;
-    background-color: #f5f5f6;
+    color: #2563eb;
+    background-color: #f1f5f9;
 }
 
 .quantity_changer button:active {
@@ -348,16 +343,16 @@ input[aria-invalid="true"] {
     width: 100%;
     padding: 12px;
     border-radius: 5px;
-    border: 1px solid #ff9500;
+    border: 1px solid #2563eb;
     font-family: "os_medium", sans-serif;
-    color: #ff9500;
+    color: #2563eb;
     background-color: #ffffff;
     transition: 0.3s all;
 }
 
 .cart_del:hover {
     color: #ffffff;
-    background-color: #ff9500;
+    background-color: #2563eb;
     transition: 0.3s all;
 }
 
@@ -371,7 +366,7 @@ input[aria-invalid="true"] {
     width: 200px;
     height: 38px;
     border-radius: 5px;
-    border: 1px solid #d3d3d3;
+    border: 1px solid #cbd5e1;
     transition: 0.3s all;
 }
 
@@ -380,18 +375,18 @@ input[aria-invalid="true"] {
     width: 60px;
     height: 38px;
     border-radius: 5px;
-    border: 1px solid #d3d3d3;
+    border: 1px solid #cbd5e1;
     transition: 0.3s all;
 }
 
 .sup_field:hover, .select_field:hover {
-    border-color: #ff9500;
+    border-color: #2563eb;
     transition: 0.3s all;
 }
 
 .sup_field:focus, .select_field:focus {
     outline: none;
-    border-color: #ff9500;
+    border-color: #2563eb;
 }
 
 /* Стили форм авторизации/регистрации */
@@ -413,11 +408,11 @@ input[aria-invalid="true"] {
     display: flex;
     font-family: "os_regular", sans-serif;
     font-size: 14px;
-    color: #808080;
+    color: #64748b;
 }
 
 .link_to:hover {
-    color: #ff9500;
+    color: #2563eb;
 }
 
 .link_to:active {
@@ -429,18 +424,18 @@ input[aria-invalid="true"] {
     width: 300px;
     height: 38px;
     border-radius: 5px;
-    border: 1px solid #d3d3d3;
+    border: 1px solid #cbd5e1;
     transition: 0.3s all;
 }
 
 .sup_field:hover {
-    border-color: #ff9500;
+    border-color: #2563eb;
     transition: 0.3s all;
 }
 
 .sup_field:focus {
     outline: none;
-    border-color: #ff9500;
+    border-color: #2563eb;
 }
 
 .sup_but {
@@ -451,7 +446,7 @@ input[aria-invalid="true"] {
     border: none;
     font-family: "os_medium", sans-serif;
     color: #ffffff;
-    background-color: #ff9500;
+    background-color: #2563eb;
     transition: 0.3s all;
 }
 
@@ -491,18 +486,18 @@ input[aria-invalid="true"] {
     width: 300px;
     height: 32px;
     border-radius: 5px;
-    border: 1px solid #d3d3d3;
+    border: 1px solid #cbd5e1;
     transition: 0.3s all;
 }
 
 .sup_field:hover {
-    border-color: #ff9500;
+    border-color: #2563eb;
     transition: 0.3s all;
 }
 
 .sup_field:focus {
     outline: none;
-    border-color: #ff9500;
+    border-color: #2563eb;
 }
 
 .link_to {
@@ -511,11 +506,11 @@ input[aria-invalid="true"] {
     display: flex;
     font-family: "os_regular", sans-serif;
     font-size: 14px;
-    color: #808080;
+    color: #64748b;
 }
 
 .link_to:hover {
-    color: #ff9500;
+    color: #2563eb;
 }
 
 .link_to:active {
@@ -538,7 +533,7 @@ input[aria-invalid="true"] {
     border-radius: 5px;
     border: none;
     color: #ffffff;
-    background-color: #ff9500;
+    background-color: #2563eb;
     transition: 0.3s all;
 }
 
@@ -551,7 +546,7 @@ input[aria-invalid="true"] {
     font-size: 14px;
     border: none;
     color: #ffffff;
-    background-color: #808080;
+    background-color: #64748b;
     transition: 0.3s all;
 }
 
@@ -578,7 +573,7 @@ input[aria-invalid="true"] {
 /* Специфические стили */
 .scheme {
     width: 1170px;
-    border: 1px solid black;
+    border: 1px solid #0f172a;
 }
 
 .book_field {

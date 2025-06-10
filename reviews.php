@@ -26,7 +26,7 @@ $row = $stmt->fetch(PDO::FETCH_ASSOC);
     <meta charset="utf-8">
     <title>Eat & Reserve - Отзывы</title>
     <link rel="icon" href="/img/fav.png" type="image/x-icon">
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/common.css">
     <script defer src="/js/common.js"></script>
     <script defer src="/js/book.js"></script>
 </head>
