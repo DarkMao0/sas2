@@ -55,7 +55,7 @@
             </div>
         </div>
         <div class="company">
-            <a>© Eat & Reserve, 2003 – <?php echo date('Y') ?></a>
+            <a>© Eat & Reserve, 2007 – <?php echo date('Y') ?></a>
         </div>
     </div>
 </footer>
