@@ -7,7 +7,7 @@ denyUser();
 <html  lang="ru" dir="ltr">
 <head>
     <meta charset="utf-8">
-    <title>Computer Galaxy - Вход</title>
+    <title>Eat & Reserve - Вход</title>
     <link rel="icon" href="/img/fav.png" type="image/x-icon">
     <link rel="stylesheet" href="/css/common.css">
     <script defer src="js/common.js"></script>

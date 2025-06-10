@@ -7,7 +7,7 @@ denyUser();
 <html  lang="ru" dir="ltr">
 <head>
     <meta charset="utf-8">
-    <title>Computer Galaxy - Регистрация</title>
+    <title>Eat & Reserve - Регистрация</title>
     <link rel="icon" href="/img/fav.png" type="image/x-icon">
     <link rel="stylesheet" href="/css/common.css">
     <link rel="stylesheet" href="/css/sign.css">

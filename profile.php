@@ -26,7 +26,7 @@ $items = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <html lang="ru" dir="ltr">
 <head>
     <meta charset="utf-8">
-    <title>Computer Galaxy - Профиль</title>
+    <title>Eat & Reserve - Профиль</title>
     <link rel="icon" href="/img/fav.png" type="image/x-icon">
     <link rel="stylesheet" href="/css/common.css">
     <link rel="stylesheet" href="/css/profile-table.css"> <!-- Подключение нового CSS -->

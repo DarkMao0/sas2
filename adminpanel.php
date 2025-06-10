@@ -25,7 +25,7 @@ $items = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <html  lang="ru" dir="ltr">
 <head>
     <meta charset="utf-8">
-    <title>kushac - Управление заявками</title>
+    <title>Eat & Reserve - Управление заявками</title>
     <link rel="icon" href="/img/fav.png" type="image/x-icon">
     <link rel="stylesheet" href="/css/common.css">
     <script defer src="/js/common.js"></script>
