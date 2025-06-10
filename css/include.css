@@ -1,0 +1,40 @@
+.header_shadow {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transition: 0.3s all;
+}
+
+.show_button {
+    bottom: 77px;
+    transition: 0.3s all;
+}
+
+.review_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.send_review {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.reviews_container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.alert {
+    align-self: center;
+}

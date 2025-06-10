@@ -28,6 +28,7 @@ $items = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <title>Eat & Reserve - Управление заявками</title>
     <link rel="icon" href="/img/fav.png" type="image/x-icon">
     <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/profile-table.css">
     <script defer src="/js/common.js"></script>
     <script defer src="/js/state.js"></script>
 </head>
